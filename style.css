@@ -193,3 +193,33 @@ body {
 .imagem-autora {
     width: 30vw;
 }
+
+/* CONTEUDO */
+
+.seção-principal-conteudo{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 8rem;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1.5rem;
+    gap: 1rem;
+    font-family: "Ropa Sans", serif; 
+}
+
+
+.conteudo-texto h2{
+    font-family: 'Bree Serif';
+    color: #e19f41;
+}
+
+.conteudo-imagem {
+    width: 30vw;
+}
